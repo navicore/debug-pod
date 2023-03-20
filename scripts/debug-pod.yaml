@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: debug-container
-    image: navicore/debug-pod:latest
+    image: ghcr.io/navicore/debug-pod:main
     command: ["sleep", "3600"]
   restartPolicy: Always
